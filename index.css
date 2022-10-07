@@ -1,0 +1,40 @@
+body{
+    color: #0C0D0A;
+    background-color: #D9D9D9;
+    padding-right: 15%;
+}
+#aside {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    background-color: black;
+    width: 15%;
+    top: 0;
+    z-index: 999;
+
+}
+h1 {
+    text-align: center;
+}
+a :hover {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 33pt;
+}
+nav{
+    width: 50%;
+    max-width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+img {
+    position: fixed;
+    clip-path: circle();
+    height: auto;
+    width: auto;
+    max-width: 13%;
+    top: 0;
+    right: 0;
+    justify-self: center;
+}
